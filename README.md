@@ -70,3 +70,5 @@ After multiplying this new texture by the luminace noise value we got it results
 No Noise - My Noise - Real Noise
 
 Note for accuracy you may want to make gaussian stationary and not dependant on a random seed that changes every frame.
+
+For performance it's probably better to apply to a black texture and save that.
